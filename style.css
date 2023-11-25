@@ -1,0 +1,152 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 86%);
+    overflow: hidden;
+}
+
+.main{
+    width: 500px;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 1rem 1rem 7rem 1rem;
+}
+
+.input{
+    margin: 1rem;
+    display: flex;
+}
+
+.input div{
+    margin: 1rem 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input label .labob{
+    color: hsl(0, 1%, 44%);
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+.labob{
+    font-size: 9px;
+}
+
+.labd{
+    margin-top: .3rem;
+    color: crimson;
+    font-size: 8px;
+}
+
+.input input{
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid hsl(0, 0%, 86%);
+}
+
+.input input[type=text]:focus{
+    border: 1px solid rgb(97, 2, 249);
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1.5rem 1rem 1rem 1rem;
+}
+
+.line{
+    background-color: hsl(0, 0%, 86%);
+    width: 25.3rem;
+    height: 1px;
+}
+
+.action button{
+    border: none;
+    background-color: white;
+}
+
+
+.action button div{
+    background-color: rgb(97, 2, 249);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.action button div img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.nums{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: -4rem;
+}
+
+.nums span{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(97, 2, 249);
+}
+
+@media (max-width: 575px){
+
+    .main{
+        width: 300px;
+        margin: 100px 100px;
+        background-color: white;
+        border-radius: 1rem 1rem 4rem 1rem;
+        position: absolute;
+    }
+
+    .input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input input{
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 4rem;
+        height: 2rem;
+        border: 1px solid hsl(0, 0%, 86%);
+    }
+
+    .nums{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        margin-left: 2rem;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: -4rem;
+    }
+
+    .nums span{
+        font-size: 3rem;
+        margin-right: .5rem;
+    }
+
+    .ouput{
+        margin-top: 3rem;
+    }
+
+    
+}

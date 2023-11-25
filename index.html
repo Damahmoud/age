@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700;1,800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+</head>
+<body>
+
+  <div class="main">
+
+    <form class="input" id="form">
+      <div>
+        <label for="day" class="labob">DAY</label>
+        <input type="text" id="day" name="day" placeholder="DD">
+        <label for="day" id="dayEr" class="labd"></label>
+      </div>
+
+      <div>
+        <label for="month" class="labob">MONTH</label>
+        <input type="text" id="month" name="month" placeholder="MM">
+        <label for="month" id="monthEr" class="labd"></label>
+      </div>
+
+      <div>
+        <label for="year" class="labob">YEAR</label>
+        <input type="text" id="year" name="year" placeholder="YYYY">
+        <label for="year" id="yearEr" class="labd"></label>
+      </div>
+
+    </form>
+
+    <div class="action">
+      <div class="line"></div>
+      <div class="btn">
+        <button id="btn">
+          <div>
+            <img src="assets/images/icon-arrow.svg" alt="">
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="ouput">
+
+      <div class="nums">
+        <div>
+          <span id="in-year">- -</span>
+        </div>
+
+        <div>
+          <h1>years</h1>
+        </div>
+      </div> 
+
+      <div class="nums">
+        <div>
+          <span id="in-month">- -</span>
+        </div>
+
+        <div>
+          <h1>months</h1>
+        </div>
+      </div>  
+      
+      <div class="nums">
+        <div>
+          <span id="in-day">- -</span>
+        </div>
+
+        <div>
+          <h1>days</h1>
+        </div>
+      </div> 
+
+    </div> 
+
+  </div>
+  
+  <script src="sand.js"></script>
+  
+</body>
+</html>
